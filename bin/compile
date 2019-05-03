@@ -21,4 +21,5 @@ if [ -f $WKHTMLTOPDF_DEB ]; then
 else
   echo "-----> Downloading wkhtmltopdf.deb"
   curl -L $WKHTMLTOPDF_URL -o $WKHTMLTOPDF_DEB
+  dpkg -i DEB_PACKAGE
 fi
