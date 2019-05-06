@@ -31,6 +31,8 @@ ar x $WKHTMLTOPDF_DEB $WKHTMLTOPDF_TAR
 echo "-----> Unpacking tar"
 tar -xf $WKHTMLTOPDF_TAR -C $TMP_PATH
 
+ls -laR $TMP_PATH
+
 echo "-----> Setting permissions"
 chmod +x $WKHTMLTOPDF_BINARIES/*
 
