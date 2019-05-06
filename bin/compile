@@ -18,5 +18,5 @@ BIN_DIR=$(cd $(dirname $0); pwd)
 
 echo "-----> Downloading wkhtmltopdf.deb"
 curl -L $WKHTMLTOPDF_URL -o $WKHTMLTOPDF_DEB
-dpkg -i DEB_PACKAGE
+dpkg -i $WKHTMLTOPDF_DEB
 rm $WKHTMLTOPDF_DEB
