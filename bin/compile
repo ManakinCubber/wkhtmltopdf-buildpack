@@ -16,8 +16,8 @@ WKHTMLTOPDF_URL="https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.
 WKHTMLTOPDF_DEB="wkhtmltopdf.deb"
 WKHTMLTOPDF_TAR="data.tar.xz"
 WKHTMLTOPDF_PATH="$TMP_PATH/usr"
-WKHTMLTOPDF_BINARIES="$WKHTMLTOPDF_PATH/bin"
-WKHTMLTOPDF_LIBS="$WKHTMLTOPDF_PATH/lib"
+WKHTMLTOPDF_BINARIES="$WKHTMLTOPDF_PATH/local/bin"
+WKHTMLTOPDF_LIBS="$WKHTMLTOPDF_PATH/local/lib"
 
 BIN_DIR=$(cd $(dirname $0); pwd)
 FONTS_DIR=$(cd "$BIN_DIR/../fonts"; pwd)
