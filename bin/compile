@@ -36,8 +36,6 @@ chmod +x $WKHTMLTOPDF_BINARIES/*
 
 echo "-----> Moving binaries to the right place"
 mv $WKHTMLTOPDF_BINARIES/* $BIN_PATH/
-export PATH="$PATH:$BIN_PATH"
-source ~/.bashrc
 echo "-----> Binaries available in $BIN_PATH"
 
 echo "-----> Moving libs to the right place"
